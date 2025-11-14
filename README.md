@@ -23,6 +23,7 @@ View your app in AI Studio: https://ai.studio/apps/drive/1HG57e0mhh1a-g_Z0vn3noi
 
 To build this app as an Android APK, see the detailed guides:
 
+🚀 **[QUICK_BUILD.md](QUICK_BUILD.md)** - Easiest way: Build with GitHub Actions (5 minutes!)  
 📱 **[BUILD_APK.md](BUILD_APK.md)** - Complete build guide in Malay and English  
 🔧 **[BUILD_TROUBLESHOOTING.md](BUILD_TROUBLESHOOTING.md)** - Troubleshooting and solutions
 
