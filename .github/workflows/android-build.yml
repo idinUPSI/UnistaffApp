@@ -35,20 +35,16 @@ jobs:
       - name: Build Web App
         run: npm run build
 
-      # 6. Sediakan Capacitor dan platform Android
-      - name: Add Android Platform
-        run: npx cap add android
-
-      # 7. Salin aset web ke projek Android
+      # 6. Salin aset web ke projek Android
       - name: Sync Web Assets to Android
         run: npx cap sync android
 
-      # 8. Sediakan kunci tandatangan (keystore) dari GitHub Secrets
+      # 7. Sediakan kunci tandatangan (keystore) dari GitHub Secrets
       - name: Decode Keystore
         run: |
           echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > android/app/unistaff-release-key.keystore
       
-      # 9. Bina dan tandatangani fail APK
+      # 8. Bina dan tandatangani fail APK
       - name: Build and Sign Release APK
         run: |
           cd android
@@ -58,7 +54,7 @@ jobs:
           SIGNING_KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
           SIGNING_STORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
 
-      # 10. Muat naik APK yang telah siap sebagai artifak
+      # 9. Muat naik APK yang telah siap sebagai artifak
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
