@@ -61,7 +61,10 @@ Then build the APK from Android Studio: **Build** > **Build Bundle(s) / APK(s)**
 
 ### Troubleshooting
 
-If you encounter build errors, see [BUILD_TROUBLESHOOTING.md](BUILD_TROUBLESHOOTING.md) for:
+**Common Error:** `./gradlew: No such file or directory`  
+See **[FIX_BUILD_ERROR.md](FIX_BUILD_ERROR.md)** for step-by-step fix guide.
+
+If you encounter other build errors, see [BUILD_TROUBLESHOOTING.md](BUILD_TROUBLESHOOTING.md) for:
 - Network and dependency issues
 - Environment setup verification
 - Alternative build methods
