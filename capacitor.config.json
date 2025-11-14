@@ -1,0 +1,8 @@
+{
+  "appId": "my.edu.upsi.unistaff",
+  "appName": "UniStaff UPSI",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

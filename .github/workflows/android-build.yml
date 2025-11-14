@@ -36,9 +36,6 @@ jobs:
         run: npm run build
 
       # 6. Sediakan Capacitor dan platform Android
-      - name: Initialize Capacitor
-        run: npx cap init --web-dir=dist "UniStaff UPSI" "my.edu.upsi.unistaff"
-      
       - name: Add Android Platform
         run: npx cap add android
 
