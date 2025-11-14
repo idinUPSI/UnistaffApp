@@ -4,6 +4,11 @@
 
 ### Prasyarat
 
+**💡 Tip:** Jalankan skrip berikut untuk memeriksa persekitaran anda:
+```bash
+./check-build-env.sh
+```
+
 Sebelum membina APK, pastikan anda telah memasang:
 
 1. **Node.js** (versi 16 atau lebih tinggi)
@@ -157,6 +162,11 @@ adb install android/app/build/outputs/apk/debug/app-debug.apk
 ## English
 
 ### Prerequisites
+
+**💡 Tip:** Run the following script to check your environment:
+```bash
+./check-build-env.sh
+```
 
 Before building the APK, ensure you have installed:
 
