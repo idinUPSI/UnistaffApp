@@ -1,0 +1,5 @@
+{
+  "name": "UPSI UniStaff Portal",
+  "description": "A web application wrapper for the UPSI UniStaff portal (unistaff.upsi.edu.my) to provide a seamless, native-like app experience.",
+  "requestFramePermissions": []
+}
