@@ -1,5 +1,10 @@
 # 🚀 Cara Mudah Build APK / Easy APK Build Guide
 
+⚠️ **NOTA PENTING / IMPORTANT NOTE:** 
+Workflow ini perlu diuji dahulu. Projek anda sudah ada workflow sedia ada di main branch.
+
+This workflow needs to be tested first. Your project already has an existing workflow in main branch.
+
 ## Kaedah Paling Mudah / Easiest Method: GitHub Actions
 
 ### Langkah-langkah / Steps:
