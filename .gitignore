@@ -30,3 +30,10 @@ android/.gradle
 android/build
 android/app/build
 android/local.properties
+
+# Android signing files - DO NOT COMMIT THESE!
+*.keystore
+*.jks
+keystore.properties
+android/keystore.properties
+android/app/keystore.properties
