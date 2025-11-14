@@ -18,3 +18,21 @@ View your app in AI Studio: https://ai.studio/apps/drive/1HG57e0mhh1a-g_Z0vn3noi
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Build Android APK
+
+To build this app as an Android APK, see the detailed guide:
+
+📱 **[BUILD_APK.md](BUILD_APK.md)** - Complete guide in Malay and English
+
+### Quick Start (APK)
+
+```bash
+# Install dependencies
+npm install
+
+# Build debug APK
+npm run android:build
+```
+
+The APK will be available at: `android/app/build/outputs/apk/debug/app-debug.apk`

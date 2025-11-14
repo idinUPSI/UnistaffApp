@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">UPSI UniStaff</string>
+    <string name="title_activity_main">UPSI UniStaff</string>
+    <string name="package_name">my.upsi.unistaff</string>
+    <string name="custom_url_scheme">my.upsi.unistaff</string>
+</resources>
