@@ -1,0 +1,6 @@
+/build/*
+!/build/.npmkeep
+
+# Keystore files - should never be committed
+*.keystore
+*.jks
